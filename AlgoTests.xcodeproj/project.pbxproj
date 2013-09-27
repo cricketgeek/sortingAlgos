@@ -22,6 +22,14 @@
 		F1D1DB0117ECB69C00615DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DAE017ECB69C00615DD9 /* UIKit.framework */; };
 		F1D1DB0917ECB69C00615DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1D1DB0717ECB69C00615DD9 /* InfoPlist.strings */; };
 		F1D1DB0B17ECB69C00615DD9 /* AlgoTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB0A17ECB69C00615DD9 /* AlgoTestsTests.m */; };
+		F1D1DB1617ECBB1E00615DD9 /* NSString+Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB1517ECBB1E00615DD9 /* NSString+Sorting.m */; };
+		F1D1DB1817ECD51400615DD9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DB1717ECD51400615DD9 /* Accounts.framework */; };
+		F1D1DB1A17ECD52D00615DD9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DB1917ECD52D00615DD9 /* Social.framework */; };
+		F1D1DB1D17F228FA00615DD9 /* MCJSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB1C17F228FA00615DD9 /* MCJSorter.m */; };
+		F1D1DB2017F2291400615DD9 /* MCJQuickSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB1F17F2291400615DD9 /* MCJQuickSorter.m */; };
+		F1D1DB2317F2292700615DD9 /* MCJSelectionSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2217F2292700615DD9 /* MCJSelectionSorter.m */; };
+		F1D1DB2617F39E5C00615DD9 /* MCJBubbleSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */; };
+		F1D1DB2917F3A5BC00615DD9 /* MCJMergeSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,20 @@
 		F1D1DB0617ECB69C00615DD9 /* AlgoTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlgoTestsTests-Info.plist"; sourceTree = "<group>"; };
 		F1D1DB0817ECB69C00615DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1D1DB0A17ECB69C00615DD9 /* AlgoTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgoTestsTests.m; sourceTree = "<group>"; };
+		F1D1DB1417ECBB1E00615DD9 /* NSString+Sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sorting.h"; sourceTree = "<group>"; };
+		F1D1DB1517ECBB1E00615DD9 /* NSString+Sorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sorting.m"; sourceTree = "<group>"; };
+		F1D1DB1717ECD51400615DD9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F1D1DB1917ECD52D00615DD9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F1D1DB1B17F228FA00615DD9 /* MCJSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSorter.h; sourceTree = "<group>"; };
+		F1D1DB1C17F228FA00615DD9 /* MCJSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSorter.m; sourceTree = "<group>"; };
+		F1D1DB1E17F2291400615DD9 /* MCJQuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJQuickSorter.h; sourceTree = "<group>"; };
+		F1D1DB1F17F2291400615DD9 /* MCJQuickSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJQuickSorter.m; sourceTree = "<group>"; };
+		F1D1DB2117F2292700615DD9 /* MCJSelectionSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSelectionSorter.h; sourceTree = "<group>"; };
+		F1D1DB2217F2292700615DD9 /* MCJSelectionSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSelectionSorter.m; sourceTree = "<group>"; };
+		F1D1DB2417F39E5C00615DD9 /* MCJBubbleSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJBubbleSorter.h; sourceTree = "<group>"; };
+		F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJBubbleSorter.m; sourceTree = "<group>"; };
+		F1D1DB2717F3A5BC00615DD9 /* MCJMergeSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJMergeSorter.h; sourceTree = "<group>"; };
+		F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJMergeSorter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D1DB1A17ECD52D00615DD9 /* Social.framework in Frameworks */,
+				F1D1DB1817ECD51400615DD9 /* Accounts.framework in Frameworks */,
 				F1D1DADF17ECB69C00615DD9 /* CoreGraphics.framework in Frameworks */,
 				F1D1DAE117ECB69C00615DD9 /* UIKit.framework in Frameworks */,
 				F1D1DADD17ECB69C00615DD9 /* Foundation.framework in Frameworks */,
@@ -103,6 +127,8 @@
 		F1D1DADB17ECB69C00615DD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1D1DB1917ECD52D00615DD9 /* Social.framework */,
+				F1D1DB1717ECD51400615DD9 /* Accounts.framework */,
 				F1D1DADC17ECB69C00615DD9 /* Foundation.framework */,
 				F1D1DADE17ECB69C00615DD9 /* CoreGraphics.framework */,
 				F1D1DAE017ECB69C00615DD9 /* UIKit.framework */,
@@ -122,6 +148,18 @@
 				F1D1DAF517ECB69C00615DD9 /* ViewController.m */,
 				F1D1DAF717ECB69C00615DD9 /* Images.xcassets */,
 				F1D1DAE317ECB69C00615DD9 /* Supporting Files */,
+				F1D1DB1417ECBB1E00615DD9 /* NSString+Sorting.h */,
+				F1D1DB1517ECBB1E00615DD9 /* NSString+Sorting.m */,
+				F1D1DB1B17F228FA00615DD9 /* MCJSorter.h */,
+				F1D1DB1C17F228FA00615DD9 /* MCJSorter.m */,
+				F1D1DB1E17F2291400615DD9 /* MCJQuickSorter.h */,
+				F1D1DB1F17F2291400615DD9 /* MCJQuickSorter.m */,
+				F1D1DB2117F2292700615DD9 /* MCJSelectionSorter.h */,
+				F1D1DB2217F2292700615DD9 /* MCJSelectionSorter.m */,
+				F1D1DB2417F39E5C00615DD9 /* MCJBubbleSorter.h */,
+				F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */,
+				F1D1DB2717F3A5BC00615DD9 /* MCJMergeSorter.h */,
+				F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
@@ -254,8 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1DAF617ECB69C00615DD9 /* ViewController.m in Sources */,
+				F1D1DB2617F39E5C00615DD9 /* MCJBubbleSorter.m in Sources */,
+				F1D1DB2917F3A5BC00615DD9 /* MCJMergeSorter.m in Sources */,
+				F1D1DB2017F2291400615DD9 /* MCJQuickSorter.m in Sources */,
 				F1D1DAED17ECB69C00615DD9 /* AppDelegate.m in Sources */,
+				F1D1DB2317F2292700615DD9 /* MCJSelectionSorter.m in Sources */,
+				F1D1DB1617ECBB1E00615DD9 /* NSString+Sorting.m in Sources */,
 				F1D1DAE917ECB69C00615DD9 /* main.m in Sources */,
+				F1D1DB1D17F228FA00615DD9 /* MCJSorter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
