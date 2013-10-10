@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1AA871618061FE10092DB31 /* MCJVanityNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */; };
 		F1D1DADD17ECB69C00615DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DADC17ECB69C00615DD9 /* Foundation.framework */; };
 		F1D1DADF17ECB69C00615DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DADE17ECB69C00615DD9 /* CoreGraphics.framework */; };
 		F1D1DAE117ECB69C00615DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DAE017ECB69C00615DD9 /* UIKit.framework */; };
@@ -30,6 +31,7 @@
 		F1D1DB2317F2292700615DD9 /* MCJSelectionSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2217F2292700615DD9 /* MCJSelectionSorter.m */; };
 		F1D1DB2617F39E5C00615DD9 /* MCJBubbleSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */; };
 		F1D1DB2917F3A5BC00615DD9 /* MCJMergeSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */; };
+		F1D1DB2C17F91C1F00615DD9 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D1DB2B17F91C1F00615DD9 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1AA871418061FE10092DB31 /* MCJVanityNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJVanityNumbers.h; sourceTree = "<group>"; };
+		F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJVanityNumbers.m; sourceTree = "<group>"; };
 		F1D1DAD917ECB69C00615DD9 /* AlgoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1DADC17ECB69C00615DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1D1DADE17ECB69C00615DD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +81,8 @@
 		F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJBubbleSorter.m; sourceTree = "<group>"; };
 		F1D1DB2717F3A5BC00615DD9 /* MCJMergeSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJMergeSorter.h; sourceTree = "<group>"; };
 		F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJMergeSorter.m; sourceTree = "<group>"; };
+		F1D1DB2A17F91C1F00615DD9 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		F1D1DB2B17F91C1F00615DD9 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,10 @@
 				F1D1DB2517F39E5C00615DD9 /* MCJBubbleSorter.m */,
 				F1D1DB2717F3A5BC00615DD9 /* MCJMergeSorter.h */,
 				F1D1DB2817F3A5BC00615DD9 /* MCJMergeSorter.m */,
+				F1D1DB2A17F91C1F00615DD9 /* TestModel.h */,
+				F1D1DB2B17F91C1F00615DD9 /* TestModel.m */,
+				F1AA871418061FE10092DB31 /* MCJVanityNumbers.h */,
+				F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
@@ -292,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1DAF617ECB69C00615DD9 /* ViewController.m in Sources */,
+				F1D1DB2C17F91C1F00615DD9 /* TestModel.m in Sources */,
 				F1D1DB2617F39E5C00615DD9 /* MCJBubbleSorter.m in Sources */,
 				F1D1DB2917F3A5BC00615DD9 /* MCJMergeSorter.m in Sources */,
+				F1AA871618061FE10092DB31 /* MCJVanityNumbers.m in Sources */,
 				F1D1DB2017F2291400615DD9 /* MCJQuickSorter.m in Sources */,
 				F1D1DAED17ECB69C00615DD9 /* AppDelegate.m in Sources */,
 				F1D1DB2317F2292700615DD9 /* MCJSelectionSorter.m in Sources */,
@@ -518,6 +530,7 @@
 				F1D1DB1017ECB69C00615DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D1DB1117ECB69C00615DD9 /* Build configuration list for PBXNativeTarget "AlgoTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				F1D1DB1317ECB69C00615DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

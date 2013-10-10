@@ -23,20 +23,27 @@
         [sortingArray addObject:@0];
     }
     
-    while ((i <= mid) || (j <= high)) {
-        if (i > mid)
+    while ((i <= mid) || (j <= high))
+    {
+        if (i > mid) //pass the bottom half but j still less than high
         {
             sortingArray[k++] = unmergedArray[j++];
         }
-        else if (j > high)
+        else if (j > high) //passed the the top half, still i less than midpoint
+        {
             sortingArray[k++] = unmergedArray[i++];
+        }
         else if ([unmergedArray[i] integerValue] < [unmergedArray[j] integerValue])
+        {
             sortingArray[k++] = unmergedArray[i++];
+        }
         else
+        {
             sortingArray[k++] = unmergedArray[j++];
-        
+        }
     }
     
+    //copy sorted array into working array
     for (int j = low; j <= high; j++)
     {
         unmergedArray[j] = sortingArray[j];

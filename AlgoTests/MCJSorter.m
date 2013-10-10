@@ -23,7 +23,7 @@
 
 + (MCJSorter *)createSorter
 {
-    return [[MCJMergeSorter alloc] init];
+    return [[MCJQuickSorter alloc] init];
 }
 
 

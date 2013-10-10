@@ -10,7 +10,9 @@
 
 #import "NSString+Sorting.h"
 #import "MCJSorter.h"
+#import "MCJVanityNumbers.h"
 
+#import "TestModel.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *wordsArray;
@@ -80,14 +82,47 @@
     [self isAnagram:@"top" otherWord:@"Pot"] ? NSLog(@"YES! Anagram!") : NSLog(@"No way dude!");
 }
 
+- (IBAction)testVanityNumbers:(id)sender
+{
+    MCJVanityNumbers *vanity = [[MCJVanityNumbers alloc] init];
+    [vanity printVanityPlateForNumbers:@[@4,@9,@0,@5,@2,@2,@5]];
+}
 
 - (IBAction)testSorting:(id)sender
 {
-    NSArray *sortedArray = [self.sorter sort:self.unsortedArray];
     
+    NSMutableArray *names = [@[@"Greg",@"Anthony",@"William",@"William",@"Hunter",@"Hunter",@"Tucker",@"Hunter",@"Tanner",@"Amanda"] mutableCopy];
+
+    NSMutableArray *models = [NSMutableArray array];
+    
+    NSMutableArray *objectsForJSON = [NSMutableArray array];
+    
+    for (NSString *name in names) {
+        TestModel *model = [[TestModel alloc] init];
+        model.name = name;
+        [models addObject:model];
+        
+        [objectsForJSON addObject:[model toDictionary]];
+    }
+    
+    if (models[0] == models[1])
+    {
+        NSLog(@"models equal");
+    }
+    
+    
+    NSArray *sortedArray = [self.sorter sort:self.unsortedArray];
     for (NSNumber *num in sortedArray) {
         NSLog(@"%@\t",num);
     }
+    
+    
+    
+    NSError *aError = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:objectsForJSON options:NSJSONWritingPrettyPrinted error:&aError];
+    
+    NSLog(@"json is %@",[[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding]);
+    
 }
 
 - (void)viewDidLoad
