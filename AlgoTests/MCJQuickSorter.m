@@ -2,6 +2,7 @@
 //  MCJQuickSorter.m
 //  AlgoTests
 //
+//  O(n*logn)
 //  Created by Mark Jones on 9/24/13.
 //  Copyright (c) 2013 Mark Jones. All rights reserved.
 //
@@ -13,9 +14,6 @@
 
 - (NSArray *)sort:(NSArray *)unsortedArray
 {
-    
-    [self bigMultiply:@"2456789999" prod2:@"12312312222"];
-    
     NSMutableArray *sortingArray = [unsortedArray mutableCopy];
     NSInteger count = sortingArray.count;
     
@@ -60,17 +58,6 @@
     
     
     return high;
-}
-
-- (NSInteger)bigMultiply:(NSString *)prod1 prod2:(NSString *)prod2 {
-    
-    NSInteger result = 0;
-    NSMutableArray *prod1Array = [NSMutableArray array];
-    NSMutableArray *prod2Array = [NSMutableArray array];
-    
-    
-    
-    return result;
 }
 
 

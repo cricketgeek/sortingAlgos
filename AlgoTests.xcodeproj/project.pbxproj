@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F154E35E185190B70050046B /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E35D185190B70050046B /* Graph.m */; };
+		F154E35F185190B70050046B /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E35D185190B70050046B /* Graph.m */; };
+		F154E3621853D6240050046B /* Hasher.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E3611853D6240050046B /* Hasher.m */; };
+		F154E3631853D6240050046B /* Hasher.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E3611853D6240050046B /* Hasher.m */; };
+		F154E3661856729A0050046B /* DepthFirstPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E3651856729A0050046B /* DepthFirstPaths.m */; };
+		F154E3671856729A0050046B /* DepthFirstPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E3651856729A0050046B /* DepthFirstPaths.m */; };
 		F1AA871618061FE10092DB31 /* MCJVanityNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */; };
 		F1D1DADD17ECB69C00615DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DADC17ECB69C00615DD9 /* Foundation.framework */; };
 		F1D1DADF17ECB69C00615DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1DADE17ECB69C00615DD9 /* CoreGraphics.framework */; };
@@ -45,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F154E35C185190B70050046B /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		F154E35D185190B70050046B /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		F154E3601853D6240050046B /* Hasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hasher.h; sourceTree = "<group>"; };
+		F154E3611853D6240050046B /* Hasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hasher.m; sourceTree = "<group>"; };
+		F154E3641856729A0050046B /* DepthFirstPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthFirstPaths.h; sourceTree = "<group>"; };
+		F154E3651856729A0050046B /* DepthFirstPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepthFirstPaths.m; sourceTree = "<group>"; };
 		F1AA871418061FE10092DB31 /* MCJVanityNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJVanityNumbers.h; sourceTree = "<group>"; };
 		F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJVanityNumbers.m; sourceTree = "<group>"; };
 		F1D1DAD917ECB69C00615DD9 /* AlgoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +123,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F154E35B1851908E0050046B /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				F154E35C185190B70050046B /* Graph.h */,
+				F154E35D185190B70050046B /* Graph.m */,
+				F154E3641856729A0050046B /* DepthFirstPaths.h */,
+				F154E3651856729A0050046B /* DepthFirstPaths.m */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		F1D1DAD017ECB69C00615DD9 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +169,7 @@
 		F1D1DAE217ECB69C00615DD9 /* AlgoTests */ = {
 			isa = PBXGroup;
 			children = (
+				F154E35B1851908E0050046B /* Graphs */,
 				F1D1DAEB17ECB69C00615DD9 /* AppDelegate.h */,
 				F1D1DAEC17ECB69C00615DD9 /* AppDelegate.m */,
 				F1D1DAEE17ECB69C00615DD9 /* Main_iPhone.storyboard */,
@@ -170,6 +194,8 @@
 				F1D1DB2B17F91C1F00615DD9 /* TestModel.m */,
 				F1AA871418061FE10092DB31 /* MCJVanityNumbers.h */,
 				F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */,
+				F154E3601853D6240050046B /* Hasher.h */,
+				F154E3611853D6240050046B /* Hasher.m */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
@@ -301,8 +327,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F154E35E185190B70050046B /* Graph.m in Sources */,
 				F1D1DAF617ECB69C00615DD9 /* ViewController.m in Sources */,
 				F1D1DB2C17F91C1F00615DD9 /* TestModel.m in Sources */,
+				F154E3661856729A0050046B /* DepthFirstPaths.m in Sources */,
 				F1D1DB2617F39E5C00615DD9 /* MCJBubbleSorter.m in Sources */,
 				F1D1DB2917F3A5BC00615DD9 /* MCJMergeSorter.m in Sources */,
 				F1AA871618061FE10092DB31 /* MCJVanityNumbers.m in Sources */,
@@ -312,6 +340,7 @@
 				F1D1DB1617ECBB1E00615DD9 /* NSString+Sorting.m in Sources */,
 				F1D1DAE917ECB69C00615DD9 /* main.m in Sources */,
 				F1D1DB1D17F228FA00615DD9 /* MCJSorter.m in Sources */,
+				F154E3621853D6240050046B /* Hasher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F154E35F185190B70050046B /* Graph.m in Sources */,
+				F154E3671856729A0050046B /* DepthFirstPaths.m in Sources */,
+				F154E3631853D6240050046B /* Hasher.m in Sources */,
 				F1D1DB0B17ECB69C00615DD9 /* AlgoTestsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,6 +2,8 @@
 //  MCJMergeSorter.m
 //  AlgoTests
 //
+//  O(n*logn)
+//
 //  Created by Mark Jones on 9/25/13.
 //  Copyright (c) 2013 Mark Jones. All rights reserved.
 //

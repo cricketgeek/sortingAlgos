@@ -2,6 +2,8 @@
 //  MCJBubbleSorter.m
 //  AlgoTests
 //
+//  O(n^2)
+//
 //  Created by Mark Jones on 9/24/13.
 //  Copyright (c) 2013 Mark Jones. All rights reserved.
 //
@@ -33,9 +35,12 @@
     for (int i = 0; i < count; i++)
     {
         NSInteger smallestIndex = [self getSmallest:sortingArray fromIndex:i];
-        NSNumber *tmp = sortingArray[smallestIndex];
-        sortingArray[smallestIndex] = sortingArray[i];
-        sortingArray[i] = tmp;
+        if (smallestIndex != i)
+        {
+            NSNumber *tmp = sortingArray[smallestIndex];
+            sortingArray[smallestIndex] = sortingArray[i];
+            sortingArray[i] = tmp;            
+        }
     }
     
     return [sortingArray copy];

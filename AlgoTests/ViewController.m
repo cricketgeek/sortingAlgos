@@ -11,6 +11,7 @@
 #import "NSString+Sorting.h"
 #import "MCJSorter.h"
 #import "MCJVanityNumbers.h"
+#import "Hasher.h"
 
 #import "TestModel.h"
 
@@ -32,6 +33,9 @@
     _sorter = [MCJSorter createSorter];
     
     _unsortedArray = @[@12,@65,@88,@9,@17,@18,@190,@89,@204,@55,@42,@2,@8,@101,@42];
+    
+    NSString *testString = @"SEATTLE";
+    NSLog(@"%@ = %d",testString,[Hasher simpleHash:testString]);
     
 }
 
