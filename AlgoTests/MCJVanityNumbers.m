@@ -73,7 +73,6 @@
     
     for (int i = 0; i < loopCount; i++) {
         NSString *nextKeyValue = [self getCharKeyFor:phoneNumber[currentDigit] index:i];
-//        NSLog(@"nextKeyValue:%@",nextKeyValue);
         
         if (nextKeyValue) {
             result[currentDigit] = nextKeyValue;

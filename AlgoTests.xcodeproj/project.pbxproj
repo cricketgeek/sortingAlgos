@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0EDA1851891F1D300C707A1 /* MJPerms.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDA1841891F1D300C707A1 /* MJPerms.m */; };
 		F154E35E185190B70050046B /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E35D185190B70050046B /* Graph.m */; };
 		F154E35F185190B70050046B /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E35D185190B70050046B /* Graph.m */; };
 		F154E3621853D6240050046B /* Hasher.m in Sources */ = {isa = PBXBuildFile; fileRef = F154E3611853D6240050046B /* Hasher.m */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0EDA1831891F1D300C707A1 /* MJPerms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerms.h; sourceTree = "<group>"; };
+		B0EDA1841891F1D300C707A1 /* MJPerms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerms.m; sourceTree = "<group>"; };
 		F154E35C185190B70050046B /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		F154E35D185190B70050046B /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
 		F154E3601853D6240050046B /* Hasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hasher.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				F1AA871518061FE10092DB31 /* MCJVanityNumbers.m */,
 				F154E3601853D6240050046B /* Hasher.h */,
 				F154E3611853D6240050046B /* Hasher.m */,
+				B0EDA1831891F1D300C707A1 /* MJPerms.h */,
+				B0EDA1841891F1D300C707A1 /* MJPerms.m */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				F1D1DB2017F2291400615DD9 /* MCJQuickSorter.m in Sources */,
 				F1D1DAED17ECB69C00615DD9 /* AppDelegate.m in Sources */,
 				F1D1DB2317F2292700615DD9 /* MCJSelectionSorter.m in Sources */,
+				B0EDA1851891F1D300C707A1 /* MJPerms.m in Sources */,
 				F1D1DB1617ECBB1E00615DD9 /* NSString+Sorting.m in Sources */,
 				F1D1DAE917ECB69C00615DD9 /* main.m in Sources */,
 				F1D1DB1D17F228FA00615DD9 /* MCJSorter.m in Sources */,

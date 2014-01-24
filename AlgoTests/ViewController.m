@@ -12,6 +12,7 @@
 #import "MCJSorter.h"
 #import "MCJVanityNumbers.h"
 #import "Hasher.h"
+#import "MJPerms.h"
 
 #import "TestModel.h"
 
@@ -79,6 +80,16 @@
     
     
     return isAnagram;
+}
+
+- (IBAction)testPermutations:(id)sender
+{
+    MJPerms *perms = [[MJPerms alloc] init];
+    NSMutableArray *permResult = [perms getPerms:@"abcd"];
+    for (NSString *str in permResult) {
+        NSLog(@" %@ ",str);
+    }
+    
 }
 
 - (IBAction)testAnagrams:(id)sender
